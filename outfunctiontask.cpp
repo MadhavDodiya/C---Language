@@ -3,7 +3,7 @@
 using namespace std;
 //class
 class car{
-	private:
+	private: // private class 
 	string name,model;
 	int price,speed;
 	
@@ -14,7 +14,6 @@ class car{
 
 //function
 void car::create(){
-	cout<<endl;
 	cout << "Enter name: ";
 	cin >> name;
 	cout << "Enter model: ";

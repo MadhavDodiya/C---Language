@@ -9,7 +9,7 @@ class car{
 	int price,speed;
 	string model;
 	
-	public:
+
 		void create(){
 			cout << "Enter name: ";
 			cin >> name;
@@ -31,7 +31,7 @@ class car{
 int main(){
 	car c1;
 	c1.create();
-	
+
 	car c2;
 	c2.create();
 }

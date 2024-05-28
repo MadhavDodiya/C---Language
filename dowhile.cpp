@@ -154,22 +154,22 @@ int main()
 //ABA
 //ABA
 	
-	int a=4;
-	int b=0;
-	int c;
-	
-	do{
-		for(c=0;c<=3;c++)
-		{
-			if(c%2==0){
-				cout<<"A";
-			}
-			else{
-				cout<<"B";
-			}
-		}
-		cout<<"\n";
-		b++;
-	}
-	while(b<a);
+//	int a=4;
+//	int b=0;
+//	int c;
+//	
+//	do{
+//		for(c=0;c<=3;c++)
+//		{
+//			if(c%2==0){
+//				cout<<"A";
+//			}
+//			else{
+//				cout<<"B";
+//			}
+//		}
+//		cout<<"\n";
+//		b++;
+//	}
+//	while(b<a);
 }
